@@ -1,0 +1,1 @@
+# CloudCostChefs-Empty-Restaurant-Kitchen-Cleanup
