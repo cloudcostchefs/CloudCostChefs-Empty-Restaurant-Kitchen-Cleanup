@@ -94,25 +94,25 @@ Our restaurant inspector scans your entire Azure empire to discover:
 3. **Start the Kitchen Inspection**:
    ```powershell
    # Basic inspection - scan all restaurant chains
-   .\EmptyRestaurantKitchenCleanup.ps1
+   .\Azure-OrphanedAppServicePlans.ps1
    
    # Custom inspection location
-   .\EmptyRestaurantKitchenCleanup.ps1 -OutputPath "C:\Inspections\GhostKitchens.html"
+   .\Azure-OrphanedAppServicePlans.ps1 -OutputPath "C:\Inspections\GhostKitchens.html"
    
    # Silent inspection (no auto-open)
-   .\EmptyRestaurantKitchenCleanup.ps1 -OpenReport:$false
+   .\Azure-OrphanedAppServicePlans.ps1 -OpenReport:$false
    ```
 
 ### Advanced Restaurant Management:
 
 ```powershell
 # Professional inspection with custom report location
-.\EmptyRestaurantKitchenCleanup.ps1 `
+.\Azure-OrphanedAppServicePlans.ps1 `
     -OutputPath "C:\RestaurantReports\Q4_GhostKitchen_Audit.html" `
     -OpenReport:$true
 
 # Automated monthly inspection (scheduled task)
-.\EmptyRestaurantKitchenCleanup.ps1 `
+.\Azure-OrphanedAppServicePlans.ps1 `
     -OutputPath "\\shared\reports\MonthlyGhostKitchens_$(Get-Date -Format 'yyyy-MM').html" `
     -OpenReport:$false
 ```
